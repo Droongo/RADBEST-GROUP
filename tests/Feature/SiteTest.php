@@ -27,7 +27,7 @@ class SiteTest extends TestCase
             'home' => ['/', 'page-home', 'From Ethiopia,'],
             'about' => ['/about', 'page-about', 'Executive'],
             'coffee' => ['/coffee', 'page-coffee', 'Yirgacheffe Gedeb Halo Hartume'],
-            'manufacturing' => ['/manufacturing', 'page-manufacturing', 'Threads, tapes'],
+            'manufacturing' => ['/manufacturing', 'page-manufacturing', 'Threads, Tapes'],
             'trading' => ['/trading', 'page-trading', 'Wacker silicone sealant'],
             'gallery' => ['/gallery', 'page-gallery', 'Showing <b>41</b> photos'],
             'contact' => ['/contact', 'page-contact', 'Send us a message'],

@@ -15,7 +15,7 @@
 @section('content')
 
 <x-page-hero image="assets/img/coffee-tasting.jpg" position="center 40%" :crumbs="[['label' => 'Contact us']]" eyebrow="Contact us">
-  <x-slot:title>Let's start a <span class="serif">conversation.</span></x-slot:title>
+  <x-slot:title>Let's Start a <span class="serif">Conversation.</span></x-slot:title>
   Whether you're a roaster looking for exceptional Ethiopian coffee, a brand seeking a reliable manufacturer, or a business furnishing a new space, we'd love to hear from you.
 </x-page-hero>
 
@@ -24,18 +24,18 @@
     <div class="contact-grid">
       <div>
         <span class="eyebrow rv">Get in touch</span>
-        <h2 class="rv d1">Reach the <span class="serif">right team.</span></h2>
+        <h2 class="rv d1">Reach the <span class="serif">Right Team.</span></h2>
         <div class="info-list">
-          <div class="info rv"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div><h3>Office address</h3><p>Garad Mall, 5th Floor, Wello Sefer,<br>Addis Ababa, Ethiopia</p></div></div>
-          <div class="info rv d1"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div><div><h3>Call us directly</h3><a href="tel:+251903444440">+251 90 344 4440</a><a href="tel:+251911212609">+251 91 121 2609</a></div></div>
+          <div class="info rv"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div><h3>Office Address</h3><p>Garad Mall, 5th Floor, Wello Sefer,<br>Addis Ababa, Ethiopia</p></div></div>
+          <div class="info rv d1"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div><div><h3>Call Us Directly</h3><a href="tel:+251903444440">+251 90 344 4440</a><a href="tel:+251911212609">+251 91 121 2609</a></div></div>
           <div class="info rv d2"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></div><div><h3>Email</h3><a href="mailto:info@radbesttrading.com">info@radbesttrading.com</a></div></div>
-          <div class="info rv d3"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><div><h3>Working hours</h3><p>Mon – Sat<br>09:00am – 18:00pm</p></div></div>
-          <div class="info rv"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8zM17 10h2a2 2 0 0 1 0 4h-2M7 2v3M11 2v3M15 2v3"/></svg></div><div><h3>Coffee export division</h3><a href="mailto:Export@radbesttrading.com">Export@radbesttrading.com</a><a href="tel:+251911216682">+251 911 216 682</a><a href="tel:+251939611111">+251 939 611 111</a></div></div>
-          <div class="info rv d1"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l1.5-5h15L21 9M3 9v11h18V9M3 9h18M9 20v-6h6v6"/></svg></div><div><h3>Trading showroom</h3><p>Wello Sefer, Garad City Mall,<br>1st and 3rd Floor, Addis Ababa</p></div></div>
+          <div class="info rv d3"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><div><h3>Working Hours</h3><p>Mon – Sat<br>09:00am – 18:00pm</p></div></div>
+          <div class="info rv"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8zM17 10h2a2 2 0 0 1 0 4h-2M7 2v3M11 2v3M15 2v3"/></svg></div><div><h3>Coffee Export Division</h3><a href="mailto:Export@radbesttrading.com">Export@radbesttrading.com</a><a href="tel:+251911216682">+251 911 216 682</a><a href="tel:+251939611111">+251 939 611 111</a></div></div>
+          <div class="info rv d1"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l1.5-5h15L21 9M3 9v11h18V9M3 9h18M9 20v-6h6v6"/></svg></div><div><h3>Trading Showroom</h3><p>Wello Sefer, Garad City Mall,<br>1st and 3rd Floor, Addis Ababa</p></div></div>
         </div>
       </div>
       <div class="form rv d1">
-        <h3>Send us a message</h3>
+        <h3>Send Us a Message</h3>
         <p>Tell us what you need and we'll get back to you as soon as we can.</p>
         {{-- POST /contact — validated by App\Http\Requests\ContactRequest, sent by resources/js/pages/contact.js --}}
         <form id="contact-form" action="{{ route('contact.store') }}" method="POST">
@@ -61,7 +61,7 @@
   <div class="wrap faq-grid">
     <div class="faq-side">
       <span class="eyebrow rv">FAQ</span>
-      <h2 class="rv d1">Questions, <span class="serif">answered.</span></h2>
+      <h2 class="rv d1">Questions, <span class="serif">Answered.</span></h2>
       <p class="lead rv d2">Everything you need to know about our businesses and capabilities. Can't find your answer? Call us on <a href="tel:+251903444440">+251 90 344 4440</a>.</p>
       <div class="faq-pics rv d3"><img src="{{ asset('assets/img/t/coffee-green-hands.jpg') }}" alt="Washed green coffee beans" width="600" height="800" loading="lazy"><img src="{{ asset('assets/img/t/trade-lounge.jpg') }}" alt="Leather lounge seating" width="800" height="450" loading="lazy"><img src="{{ asset('assets/img/t/mfg-ribbons-3.jpg') }}" alt="Woven elastic tapes" width="533" height="800" loading="lazy"></div>
     </div>

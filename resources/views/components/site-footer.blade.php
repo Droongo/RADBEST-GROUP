@@ -15,7 +15,7 @@
       </div>
       <div><h4>Divisions</h4><ul><li><a href="{{ route('coffee') }}">RAD Best Coffee</a></li><li><a href="https://radbesttrading.com/" target="_blank" rel="noopener">RAD Best Trading</a></li><li><a href="{{ route('manufacturing') }}">RAD Best Manufacturing</a></li></ul></div>
       <div><h4>Pages</h4><ul><li><a href="{{ route('home') }}">Home</a></li><li><a href="{{ route('about') }}">About Us</a></li><li><a href="{{ route('gallery') }}">Gallery</a></li><li><a href="{{ route('contact') }}">Contact Us</a></li><li><a href="{{ route('contact') }}#faq">FAQ</a></li></ul></div>
-      <div><h4>Visit &amp; call</h4><ul><li>Garad Mall, 5th Floor, Wello Sefer,<br>Addis Ababa, Ethiopia</li><li><a href="tel:+251903444440">Tel. +251 90 344 4440</a></li><li><a href="tel:+251911212609">Tel. +251 91 121 2609</a></li><li><a href="mailto:info@radbesttrading.com">info@radbesttrading.com</a></li></ul></div>
+      <div><h4>Visit &amp; Call</h4><ul><li>Garad Mall, 5th Floor, Wello Sefer,<br>Addis Ababa, Ethiopia</li><li><a href="tel:+251903444440">Tel. +251 90 344 4440</a></li><li><a href="tel:+251911212609">Tel. +251 91 121 2609</a></li><li><a href="mailto:info@radbesttrading.com">info@radbesttrading.com</a></li></ul></div>
     </div>
     <div class="f-bot">
       <div class="f-copy">

@@ -15,7 +15,7 @@
 @section('content')
 
 <x-page-hero image="assets/img/coffee-aerial.jpg" position="center 60%" :crumbs="[['label' => 'Gallery']]" eyebrow="Gallery">
-  <x-slot:title>The group, <span class="serif">in pictures.</span></x-slot:title>
+  <x-slot:title>The Group, <span class="serif">in Pictures.</span></x-slot:title>
   From the raised drying beds of Ethiopia's coffee highlands to our showroom and factory floor. Filter by business and click any photo to view it full size.
 </x-page-hero>
 
@@ -38,7 +38,7 @@
 </section>
 
 <x-cta-band id="enquire" image="assets/img/coffee-team-workers.jpg" width="1800" height="1013">
-  <x-slot:title>Want to see it <span class="serif">in person?</span></x-slot:title>
+  <x-slot:title>Want to See It <span class="serif">in Person?</span></x-slot:title>
   Visit our trading showroom at Garad City Mall, or get in touch to arrange a visit to our coffee or manufacturing operations.
 </x-cta-band>
 

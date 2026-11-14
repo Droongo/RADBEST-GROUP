@@ -11,7 +11,7 @@
 @section('content')
 
 <x-page-hero image="assets/img/mfg-thread.jpg" position="center 50%" :crumbs="[['label' => 'Divisions', 'url' => route('home').'#divisions'], ['label' => 'Manufacturing']]" eyebrow="RAD Best Manufacturing">
-  <x-slot:title>Supporting Ethiopia's <span class="serif">growing textile industry.</span></x-slot:title>
+  <x-slot:title>Supporting Ethiopia's <span class="serif">Growing Textile Industry.</span></x-slot:title>
   Integrated manufacturing capabilities, from yarn dyeing to finished garments, designed to serve both domestic and international markets.
   <x-slot:ctas>
       <a href="#produce" class="btn btn-sky">What we produce <span class="arr">→</span></a>
@@ -35,7 +35,7 @@
     </div>
     <div class="prose">
       <span class="eyebrow rv">Integrated manufacturing</span>
-      <h2 class="rv d1">From yarn to garment, <span class="serif">in one production environment.</span></h2>
+      <h2 class="rv d1">From Yarn to Garment, <span class="serif">in One Production Environment.</span></h2>
       <p class="lead rv d2">RAD Best Manufacturing contributes to Ethiopia's expanding textile and garment sector through integrated manufacturing capabilities designed to serve both domestic and international markets.</p>
       <p class="rv d2">Operating from a 30,000 square meter production facility in the Lege-Tafo area of Addis Ababa, our manufacturing operations include yarn dyeing, fabric production and garment manufacturing. Managing these processes within a single production environment allows us to maintain consistent quality standards, improve operational efficiency and respond effectively to diverse customer requirements.</p>
       <p class="rv d3">Our integrated production model enables clients to work with one manufacturing partner throughout multiple stages of the textile value chain.</p>
@@ -49,14 +49,14 @@
     <div class="journey-head">
       <div>
         <span class="eyebrow rv">What we produce</span>
-        <h2 class="rv d1">Commitment to quality <span class="serif">and a diverse range.</span></h2>
+        <h2 class="rv d1">Commitment to Quality <span class="serif">and a Diverse Range.</span></h2>
       </div>
       <p class="lead rv d2">Three product lines that follow the textile value chain, each made to client specifications for domestic and export markets.</p>
     </div>
     <div class="offer-grid">
-      <article class="offer rv"><div class="ph"><img src="{{ asset('assets/img/t/mfg-yarn-cones.jpg') }}" alt="Cones of dyed yarn on a creel" width="650" height="800" loading="lazy"></div><div class="tx"><span class="tagline">01 · Yarn</span><h3>Dyed yarns</h3><p>High-quality dyed yarns in a range of specifications, suitable for apparel, industrial textiles and commercial manufacturing applications.</p></div></article>
+      <article class="offer rv"><div class="ph"><img src="{{ asset('assets/img/t/mfg-yarn-cones.jpg') }}" alt="Cones of dyed yarn on a creel" width="650" height="800" loading="lazy"></div><div class="tx"><span class="tagline">01 · Yarn</span><h3>Dyed Yarns</h3><p>High-quality dyed yarns in a range of specifications, suitable for apparel, industrial textiles and commercial manufacturing applications.</p></div></article>
       <article class="offer rv d1"><div class="ph"><img src="{{ asset('assets/img/t/mfg-lace.jpg') }}" alt="Samples of white lace and trims" width="533" height="800" loading="lazy"></div><div class="tx"><span class="tagline">02 · Fabric</span><h3>Fabrics</h3><p>A fabric portfolio supporting garment production as well as commercial and industrial textile applications, with reliable quality and consistent performance.</p></div></article>
-      <article class="offer rv d2"><div class="ph"><img src="{{ asset('assets/img/t/mfg-ribbons-1.jpg') }}" alt="Woven tapes and finished trims" width="533" height="800" loading="lazy"></div><div class="tx"><span class="tagline">03 · Garments</span><h3>Finished garments</h3><p>Corporate uniforms, workwear, fashion apparel and custom garments made to client specifications for domestic and export markets.</p></div></article>
+      <article class="offer rv d2"><div class="ph"><img src="{{ asset('assets/img/t/mfg-ribbons-1.jpg') }}" alt="Woven tapes and finished trims" width="533" height="800" loading="lazy"></div><div class="tx"><span class="tagline">03 · Garments</span><h3>Finished Garments</h3><p>Corporate uniforms, workwear, fashion apparel and custom garments made to client specifications for domestic and export markets.</p></div></article>
     </div>
   </div>
 </section>
@@ -67,14 +67,14 @@
     <div class="div-head">
       <div>
         <span class="eyebrow rv">Our integrated model</span>
-        <h2 class="rv d1">One partner across the <span class="serif">textile value chain.</span></h2>
+        <h2 class="rv d1">One Partner Across the <span class="serif">Textile Value Chain.</span></h2>
       </div>
       <p class="lead rv d2">From raw material processing to finished products, every stage is monitored to ensure consistency, product reliability and customer satisfaction.</p>
     </div>
     <div class="points">
-      <div class="point rv"><div class="ic">01</div><h3>Yarn dyeing</h3><p>High-quality dyed yarns produced in a range of specifications.</p></div>
-      <div class="point rv d1"><div class="ic">02</div><h3>Fabric production</h3><p>Fabrics for garments and for commercial and industrial textiles.</p></div>
-      <div class="point rv d2"><div class="ic">03</div><h3>Garment manufacturing</h3><p>Uniforms, workwear, fashion apparel and custom garments.</p></div>
+      <div class="point rv"><div class="ic">01</div><h3>Yarn Dyeing</h3><p>High-quality dyed yarns produced in a range of specifications.</p></div>
+      <div class="point rv d1"><div class="ic">02</div><h3>Fabric Production</h3><p>Fabrics for garments and for commercial and industrial textiles.</p></div>
+      <div class="point rv d2"><div class="ic">03</div><h3>Garment Manufacturing</h3><p>Uniforms, workwear, fashion apparel and custom garments.</p></div>
     </div>
   </div>
 </section>
@@ -85,7 +85,7 @@
     <div class="gal-head">
       <div>
         <span class="eyebrow rv">Product range</span>
-        <h2 class="rv d1">Threads, tapes <span class="serif">and trims.</span></h2>
+        <h2 class="rv d1">Threads, Tapes <span class="serif">and Trims.</span></h2>
       </div>
       <a href="{{ route('gallery') }}#manufacturing" class="btn btn-navy rv d2">More factory photos <span class="arr">→</span></a>
     </div>
@@ -106,13 +106,13 @@
   <div class="wrap split">
     <div class="prose">
       <span class="eyebrow rv">Commitment to quality</span>
-      <h2 class="rv d1">Quality management, <span class="serif">built into the line.</span></h2>
+      <h2 class="rv d1">Quality Management, <span class="serif">Built Into the Line.</span></h2>
       <p class="rv d2">Quality management is integrated throughout our manufacturing operations. From raw material processing to finished products, every stage is monitored to ensure consistency, product reliability and customer satisfaction.</p>
       <p class="rv d2">By combining modern production facilities with skilled personnel and standardized quality procedures, we deliver textile products that meet the requirements of both local manufacturers and international buyers.</p>
     </div>
     <div class="prose">
       <span class="eyebrow rv">Investing in people and industry</span>
-      <h2 class="rv d1">300+ jobs, <span class="serif">and growing.</span></h2>
+      <h2 class="rv d1">300+ Jobs, <span class="serif">and Growing.</span></h2>
       <p class="rv d2">With a workforce of more than 300 employees, RAD Best Manufacturing contributes to employment creation while supporting the continued development of Ethiopia's textile industry.</p>
       <p class="rv d2">Alongside expanding production capacity, we continue to invest in workforce development, operational improvement and manufacturing capability, strengthening both our business and the broader industrial ecosystem in which we operate.</p>
     </div>
@@ -127,7 +127,7 @@
 </section>
 
 <x-cta-band id="enquire" image="assets/img/mfg-thread.jpg" width="1800" height="1200">
-  <x-slot:title>Looking for a reliable <span class="serif">textile partner?</span></x-slot:title>
+  <x-slot:title>Looking for a Reliable <span class="serif">Textile Partner?</span></x-slot:title>
   Tell us about your yarn, fabric or garment requirements and our Lege-Tafo team will get back to you.
   <x-slot:checks><span>Dyed yarns</span><span>Fabrics</span><span>Uniforms, workwear &amp; custom garments</span><span>Local and export orders</span></x-slot:checks>
 </x-cta-band>

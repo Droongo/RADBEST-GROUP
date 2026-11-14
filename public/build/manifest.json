@@ -1,0 +1,118 @@
+{
+  "_dom-Cx00yAka.js": {
+    "file": "assets/dom-Cx00yAka.js",
+    "name": "dom"
+  },
+  "public/assets/img/coffee-cherries-hands.jpg": {
+    "file": "assets/coffee-cherries-hands-DtHrdzO4.jpg",
+    "src": "public/assets/img/coffee-cherries-hands.jpg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-ClbiPjA9.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/pages/about.css": {
+    "file": "assets/about-CjCTGyGp.css",
+    "src": "resources/css/pages/about.css",
+    "isEntry": true,
+    "name": "about",
+    "names": [
+      "about.css"
+    ]
+  },
+  "resources/css/pages/coffee.css": {
+    "file": "assets/coffee-C4aRFJQG.css",
+    "src": "resources/css/pages/coffee.css",
+    "isEntry": true,
+    "name": "coffee",
+    "names": [
+      "coffee.css"
+    ]
+  },
+  "resources/css/pages/contact.css": {
+    "file": "assets/contact-BFUYQNvj.css",
+    "src": "resources/css/pages/contact.css",
+    "isEntry": true,
+    "name": "contact",
+    "names": [
+      "contact.css"
+    ]
+  },
+  "resources/css/pages/gallery.css": {
+    "file": "assets/gallery-3nidNPdY.css",
+    "src": "resources/css/pages/gallery.css",
+    "isEntry": true,
+    "name": "gallery",
+    "names": [
+      "gallery.css"
+    ]
+  },
+  "resources/css/pages/home.css": {
+    "file": "assets/home-DKq7OrUj.css",
+    "src": "resources/css/pages/home.css",
+    "isEntry": true,
+    "name": "home",
+    "names": [
+      "home.css"
+    ]
+  },
+  "resources/css/pages/manufacturing.css": {
+    "file": "assets/manufacturing-tn0RQdqM.css",
+    "src": "resources/css/pages/manufacturing.css",
+    "isEntry": true,
+    "name": "manufacturing",
+    "names": [
+      "manufacturing.css"
+    ]
+  },
+  "resources/css/pages/trading.css": {
+    "file": "assets/trading-CRca-2Aj.css",
+    "src": "resources/css/pages/trading.css",
+    "isEntry": true,
+    "name": "trading",
+    "names": [
+      "trading.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CiKMhLVh.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_dom-Cx00yAka.js"
+    ]
+  },
+  "resources/js/pages/coffee.js": {
+    "file": "assets/coffee-BLgaeliX.js",
+    "name": "coffee",
+    "src": "resources/js/pages/coffee.js",
+    "isEntry": true,
+    "imports": [
+      "_dom-Cx00yAka.js"
+    ]
+  },
+  "resources/js/pages/contact.js": {
+    "file": "assets/contact-gNCD2l7a.js",
+    "name": "contact",
+    "src": "resources/js/pages/contact.js",
+    "isEntry": true,
+    "imports": [
+      "_dom-Cx00yAka.js"
+    ]
+  },
+  "resources/js/pages/gallery.js": {
+    "file": "assets/gallery-CP4yOVSA.js",
+    "name": "gallery",
+    "src": "resources/js/pages/gallery.js",
+    "isEntry": true,
+    "imports": [
+      "_dom-Cx00yAka.js"
+    ]
+  }
+}

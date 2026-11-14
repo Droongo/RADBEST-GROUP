@@ -1,0 +1,40 @@
+/* =====================================================================
+   Site footer (components/site-footer.blade.php)
+   The original styled the bare `footer` element; it is now the
+   .site-footer block so no other <footer> can inherit these rules.
+   ===================================================================== */
+.site-footer{background:var(--ink);color:rgba(255,255,255,.65);padding:90px 0 30px;font-size:.93rem}
+.site-footer h4{color:var(--white);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:20px}
+.site-footer li{list-style:none;margin-bottom:10px}
+.site-footer a:hover{color:var(--sky)}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:50px}
+
+/* logo (text fallback when the remote logo fails) */
+.f-logo img{height:40px;margin-bottom:22px}
+.f-logo .txt{display:none;color:#fff;font-weight:800;font-size:1.2rem;margin-bottom:22px}
+.f-logo.noimg .txt{display:block}
+.tm{font-size:.5em;vertical-align:super;font-weight:700}
+
+/* newsletter */
+.news{display:flex;margin-top:22px;background:rgba(255,255,255,.06);border-radius:99px;padding:6px}
+.news input{flex:1;min-width:0;background:none;border:0;color:#fff;padding:0 16px;font:inherit;outline:0}
+.news button{background:var(--sky);color:var(--navy);border:0;border-radius:99px;padding:11px 18px;font-weight:700;cursor:pointer;font:inherit;font-weight:700}
+
+/* socials (after the generic footer link hover so their own hover wins) */
+.socials{display:flex;gap:10px;margin-top:22px}
+.socials a{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.08);display:grid;place-items:center;color:var(--white);transition:.3s var(--ease)}
+.socials a:hover{background:var(--sky);color:var(--navy)}
+
+/* bottom bar */
+.f-bot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:70px;padding-top:26px;border-top:1px solid rgba(255,255,255,.1);font-size:.84rem;align-items:flex-end}
+.f-copy{display:grid;gap:6px}
+.f-copy strong{color:var(--white);font-weight:700}
+.f-tm{font-size:.8rem;color:rgba(255,255,255,.45);max-width:60ch}
+.f-legal{display:flex;gap:6px;flex-wrap:wrap}
+
+@media (max-width:1024px){
+  .f-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:560px){
+  .f-grid{grid-template-columns:1fr}
+}

@@ -1,0 +1,10 @@
+/* =====================================================================
+   Manufacturing page only  —  <body class="page-manufacturing">
+   (resources/views/pages/manufacturing.blade.php)
+
+   This page is built entirely from shared components (hero, media stack,
+   offer cards, points, mosaic, testimonial slider, CTA band) and the
+   original site had no manufacturing-only rules or inline styles.
+   Add rules here, scoped under .page-manufacturing, if the page needs
+   its own styling in future.
+   ===================================================================== */

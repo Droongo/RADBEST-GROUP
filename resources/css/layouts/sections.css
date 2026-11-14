@@ -1,0 +1,26 @@
+/* ---------- vertical section rhythm ----------
+   The original used a bare `section{}` selector. It is narrowed to direct
+   children of <main> so it cannot leak into nested markup, while keeping
+   element-level specificity (0,0,2) so every class-based override
+   (.cta, .tight, page modifiers) still wins exactly as before. */
+main > section{padding:120px 0}
+
+/* ---------- section backgrounds / modifiers ---------- */
+.alt{background:var(--stone)}
+.tight{padding:90px 0}
+.center{text-align:center}
+.center .lead{margin-left:auto;margin-right:auto}
+.testi{background:var(--white)}
+
+/* dark navy band (home divisions, quality, process, vision, service) */
+.divisions{background:var(--navy);color:var(--white)}
+.divisions h2{color:var(--white)}
+.divisions .lead{color:rgba(255,255,255,.7)}
+
+/* dark ink stats band (home numbers, about communities) */
+.numbers{background:var(--ink);color:var(--white);padding:90px 0}
+
+@media (max-width:560px){
+  main > section{padding:84px 0}
+  .tight{padding:64px 0}
+}

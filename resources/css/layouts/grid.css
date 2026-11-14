@@ -1,0 +1,13 @@
+/* ---------- two-column structural layouts ---------- */
+.about-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:80px;align-items:center}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}
+
+/* ---------- section heads ---------- */
+.div-head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap;margin-bottom:60px}
+.journey-head{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:64px}
+.gal-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:48px}
+
+@media (max-width:1024px){
+  .about-grid,.journey-head{grid-template-columns:1fr;gap:56px}
+  .split{grid-template-columns:1fr;gap:44px}
+}

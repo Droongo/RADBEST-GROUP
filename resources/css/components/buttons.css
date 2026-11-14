@@ -1,0 +1,20 @@
+/* ---------- buttons ----------
+   NOTE: must be imported BEFORE base/animations.css. On elements that are
+   both .btn and .rv (e.g. "More coffee photos"), the original stylesheet let
+   .rv's transition win because it came later — keep that order. */
+.btn{display:inline-flex;align-items:center;gap:12px;padding:15px 26px;border-radius:999px;font-weight:700;font-size:.95rem;transition:.35s var(--ease);cursor:pointer;border:0}
+.btn .arr{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--navy);color:var(--white);transition:.35s var(--ease)}
+.btn-sky{background:var(--sky);color:var(--navy)}
+.btn-sky:hover{background:var(--white)}
+.btn-sky:hover .arr{transform:rotate(-45deg)}
+.btn-ghost{color:var(--white);border:1px solid rgba(255,255,255,.35)}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-navy{background:var(--navy);color:var(--white)}
+.btn-navy .arr{background:var(--sky);color:var(--navy)}
+.btn-navy:hover{background:var(--ink)}
+.btn-navy:hover .arr{transform:rotate(-45deg)}
+
+/* pill tab buttons — coffee origin tabs and gallery filters */
+.tab{padding:13px 24px;border-radius:99px;border:1px solid var(--line);background:var(--white);font:inherit;font-weight:700;font-size:.95rem;color:var(--navy);cursor:pointer;transition:.3s var(--ease)}
+.tab:hover{border-color:var(--navy)}
+.tab[aria-selected=true]{background:var(--navy);border-color:var(--navy);color:var(--white)}

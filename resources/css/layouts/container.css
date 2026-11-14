@@ -1,0 +1,6 @@
+/* Main content container */
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+
+@media (max-width:560px){
+  .wrap{padding:0 16px}
+}

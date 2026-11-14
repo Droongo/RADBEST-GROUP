@@ -1,0 +1,43 @@
+/* =====================================================================
+   RAD Best Business Group — global stylesheet (loaded on every page)
+
+   Layer order is intentional — do not reorder without checking the notes
+   inside each file:
+     1. base        tokens, reset, document, typography
+     2. buttons     (before animations: .rv must override .btn's transition)
+     3. animations  reveal-on-scroll + shared keyframes
+     4. layouts     container, section rhythm, structural grids
+     5. components  shared UI used on two or more pages
+                    (cta before cards: .point must override .cta padding)
+
+   Page-only rules live in resources/css/pages/*.css, are loaded only on
+   their page (see @push('styles') in each view) and are scoped under the
+   page's <body class="page-*">.
+   ===================================================================== */
+
+/* 1. base */
+@import './base/variables.css';
+@import './base/reset.css';
+@import './base/global.css';
+@import './base/typography.css';
+
+/* 2–3. buttons, then motion */
+@import './components/buttons.css';
+@import './base/animations.css';
+
+/* 4. layouts */
+@import './layouts/container.css';
+@import './layouts/sections.css';
+@import './layouts/grid.css';
+
+/* 5. shared components */
+@import './components/navigation.css';
+@import './components/hero.css';
+@import './components/media-stack.css';
+@import './components/prose.css';
+@import './components/cta.css';
+@import './components/cards.css';
+@import './components/journey-band.css';
+@import './components/photo-grids.css';
+@import './components/testimonials.css';
+@import './components/footer.css';

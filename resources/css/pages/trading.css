@@ -1,0 +1,24 @@
+/* =====================================================================
+   Trading page only  —  <body class="page-trading">  (resources/views/pages/trading.blade.php)
+   ===================================================================== */
+
+/* ---------- "need something specific?" wide navy offer card ---------- */
+.page-trading .offer.plain{background:var(--navy);justify-content:flex-end;min-height:300px}
+.page-trading .offer.plain h3,.page-trading .offer.plain .tx{color:var(--white)}
+.page-trading .offer.plain p{color:rgba(255,255,255,.75)}
+.page-trading .offer.plain .tx{padding:34px}
+.page-trading .offer.plain h3{font-size:1.5rem;max-width:22ch}
+.page-trading .offer.plain .tagline{color:var(--sky)}
+.page-trading .offer.plain .btn{margin-top:22px}
+.page-trading .offer.span2{grid-column:span 2}
+
+/* ---------- showroom (were inline styles) ---------- */
+.page-trading .gal-head .lead{max-width:46ch}
+.page-trading .mason + .center{margin-top:40px}
+
+/* ---------- service approach photo band (was inline style) ---------- */
+.page-trading .divisions .journey-band{margin-top:44px;min-height:380px}
+
+@media (max-width:560px){
+  .page-trading .offer.span2{grid-column:auto}
+}

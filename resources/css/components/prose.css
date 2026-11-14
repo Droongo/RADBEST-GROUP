@@ -1,0 +1,7 @@
+/* Long-form text column and chip lists */
+.prose p{color:var(--slate);margin-top:16px;max-width:64ch}
+.prose p:first-child{margin-top:0}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.chips span{font-size:.82rem;font-weight:600;padding:8px 15px;border:1px solid var(--line);border-radius:99px;color:var(--navy);background:var(--white)}
+.on-dark .chips span{background:transparent;border-color:rgba(255,255,255,.22);color:rgba(255,255,255,.85)}

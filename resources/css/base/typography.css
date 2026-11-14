@@ -1,0 +1,13 @@
+/* Typography — fonts are loaded from Google Fonts in layouts/app.blade.php
+   (Manrope 300–800, Fraunces italic 300/400) */
+.serif{font-family:Fraunces,Georgia,serif;font-style:italic;font-weight:300;letter-spacing:-.01em}
+
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--slate)}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--sky)}
+.on-dark .eyebrow{color:var(--sky)}
+
+h1,h2,h3{font-weight:700;letter-spacing:-.025em;line-height:1.08;color:var(--navy)}
+h2{font-size:clamp(2rem,4.2vw,3.4rem);margin:18px 0 20px}
+h3{font-size:1.35rem;line-height:1.25}
+
+.lead{font-size:1.12rem;color:var(--slate);max-width:62ch}

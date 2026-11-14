@@ -1,0 +1,51 @@
+/* =====================================================================
+   Contact page only  —  <body class="page-contact">  (resources/views/pages/contact.blade.php)
+   ===================================================================== */
+
+/* ---------- contact details + form ---------- */
+.page-contact .contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:start}
+.page-contact .info-list{display:grid;gap:14px;margin-top:34px}
+.page-contact .info{display:grid;grid-template-columns:52px 1fr;gap:18px;background:var(--white);border-radius:18px;padding:22px 24px;box-shadow:0 1px 0 var(--line)}
+.page-contact .info .ic{width:52px;height:52px;border-radius:14px;background:var(--stone);display:grid;place-items:center;color:var(--navy)}
+.page-contact .info h3{font-size:1.02rem;margin-bottom:4px}
+.page-contact .info p,.page-contact .info a{display:block;color:var(--slate);font-size:.95rem}
+.page-contact .info a:hover{color:var(--navy)}
+
+.page-contact .form{background:var(--white);border-radius:var(--r);padding:46px;box-shadow:0 30px 60px -40px rgba(18,53,67,.35)}
+.page-contact .form h3{font-size:1.7rem;margin-bottom:8px}
+.page-contact .form>p{color:var(--slate);margin-bottom:28px}
+.page-contact .field{margin-bottom:16px}
+.page-contact .field input,.page-contact .field textarea{width:100%;font:inherit;padding:17px 22px;border:1px solid var(--line);border-radius:14px;background:var(--paper);color:var(--ink);transition:.3s var(--ease)}
+.page-contact .field input::placeholder,.page-contact .field textarea::placeholder{color:var(--slate);opacity:.8}
+.page-contact .field input:focus,.page-contact .field textarea:focus{outline:0;border-color:var(--navy);background:var(--white);box-shadow:0 0 0 4px rgba(169,200,230,.45)}
+.page-contact .field textarea{min-height:150px;resize:vertical}
+.page-contact .form .btn{width:100%;justify-content:center}
+.page-contact .form-msg{margin-top:16px;font-weight:600;color:var(--navy);display:none;background:var(--stone);padding:14px 18px;border-radius:12px}
+.page-contact .form-msg.show{display:block}
+
+.page-contact .map{border-radius:var(--r);overflow:hidden;height:440px;background:var(--stone);margin-top:22px}
+.page-contact .map iframe{width:100%;height:100%;border:0;display:block}
+
+/* ---------- FAQ (resources/js/pages/contact.js keeps one item open) ---------- */
+.page-contact .faq-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px}
+.page-contact .faq-side .lead a{color:var(--navy);font-weight:700}
+.page-contact .faq-pics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:34px;max-width:420px}
+.page-contact .faq-pics img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:16px}
+.page-contact details{border-bottom:1px solid var(--line);padding:6px 0}
+.page-contact summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font-weight:700;font-size:1.12rem;color:var(--navy)}
+.page-contact summary::-webkit-details-marker{display:none}
+.page-contact summary .pm{flex:0 0 38px;height:38px;border-radius:50%;background:var(--white);display:grid;place-items:center;transition:.35s var(--ease);font-size:1.2rem;font-weight:400}
+.page-contact details[open] summary .pm{background:var(--navy);color:var(--white);transform:rotate(45deg)}
+.page-contact details p{padding:0 50px 24px 0;color:var(--slate)}
+
+/* ---------- responsive ---------- */
+@media (min-width:1025px){
+  .page-contact .form{position:sticky;top:100px}
+}
+@media (max-width:1024px){
+  .page-contact .faq-grid{grid-template-columns:1fr;gap:56px}
+  .page-contact .contact-grid{grid-template-columns:1fr;gap:44px}
+}
+@media (max-width:560px){
+  .page-contact .form{padding:28px 22px}
+}

@@ -1,0 +1,17 @@
+/* =====================================================================
+   Design tokens — values extracted unchanged from the original style.css
+   ===================================================================== */
+:root{
+  --navy:#123543;      /* brand primary */
+  --ink:#222F30;       /* brand secondary */
+  --sky:#A9C8E6;       /* brand accent */
+  --slate:#586C6E;
+  --stone:#E7E8E1;
+  --paper:#F7F7F5;
+  --white:#FFFFFF;
+  --cherry:#9E2A2B;    /* used sparingly, drawn from the coffee photos */
+  --line:rgba(18,53,67,.12);
+  --r:22px;            /* default card radius */
+  --max:1240px;        /* container max width */
+  --ease:cubic-bezier(.2,.7,.2,1);
+}

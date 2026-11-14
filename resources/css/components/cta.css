@@ -1,0 +1,21 @@
+/* =====================================================================
+   Closing call-to-action band (components/cta-band.blade.php)
+   The background photo is always a real <img class="bgimg">, so the
+   original's unused ::before background fallback was dropped.
+   ===================================================================== */
+.cta{padding:0 0 120px}
+.cta-box{position:relative;border-radius:30px;overflow:hidden;padding:90px 70px;color:var(--white);background:var(--navy)}
+.cta-box::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,var(--navy) 30%,rgba(18,53,67,.4))}
+.cta-box>*{position:relative;z-index:2}
+.cta-box>.bgimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.35;z-index:0}
+.cta-box h2{color:var(--white);max-width:16ch}
+.cta-box p{max-width:52ch;color:rgba(255,255,255,.8)}
+.cta-box .mail{color:var(--sky);font-weight:700}
+.cta-box .mail:hover{text-decoration:underline}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.chk{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:40px;font-size:.92rem;color:rgba(255,255,255,.85)}
+.chk span::before{content:"✓";color:var(--sky);font-weight:800;margin-right:9px}
+
+@media (max-width:560px){
+  .cta-box{padding:56px 26px}
+}

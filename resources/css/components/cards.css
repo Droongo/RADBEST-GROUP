@@ -1,0 +1,58 @@
+/* =====================================================================
+   Shared card families
+   NOTE: must be imported AFTER components/cta.css — the About page's
+   ".point.cta" card relies on .point's padding overriding .cta's.
+   ===================================================================== */
+
+/* ---------- photo steps (home journey, coffee journey, about "fits together") ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:s}
+.step{background:var(--white);border-radius:var(--r);overflow:hidden;transition:.5s var(--ease);box-shadow:0 1px 0 var(--line)}
+.step:hover{transform:translateY(-8px);box-shadow:0 30px 60px -30px rgba(18,53,67,.35)}
+.step .ph{aspect-ratio:4/5;overflow:hidden;position:relative}
+.step .ph img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.step:hover .ph img{transform:scale(1.07)}
+.step .ph::after{counter-increment:s;content:"0" counter(s);position:absolute;left:18px;top:16px;font-weight:800;font-size:.85rem;letter-spacing:.1em;color:var(--navy);background:var(--sky);padding:6px 11px;border-radius:99px}
+.step .tx{padding:24px 24px 28px}
+.step h3{font-size:1.15rem;margin-bottom:8px}
+.step p{font-size:.93rem;color:var(--slate)}
+
+/* ---------- fact tiles (home, about) ---------- */
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px}
+.fact{background:var(--paper);border-radius:16px;padding:22px}
+.fact b{display:block;color:var(--navy);font-size:1rem;margin-bottom:4px}
+.fact span{font-size:.9rem;color:var(--slate)}
+
+/* ---------- numbered point cards (about, coffee, manufacturing, trading) ---------- */
+.points{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.point{background:var(--white);border-radius:var(--r);padding:32px;box-shadow:0 1px 0 var(--line);transition:.45s var(--ease)}
+.point:hover{transform:translateY(-6px);box-shadow:0 30px 60px -30px rgba(18,53,67,.35)}
+.point .ic{width:52px;height:52px;border-radius:14px;background:var(--stone);display:grid;place-items:center;color:var(--navy);font-weight:800;font-size:.95rem;letter-spacing:.04em}
+.point h3{font-size:1.12rem;margin:20px 0 8px}
+.point p{color:var(--slate);font-size:.96rem}
+.on-dark .point{background:rgba(255,255,255,.05);box-shadow:none;border:1px solid rgba(255,255,255,.1)}
+.on-dark .point:hover{background:rgba(255,255,255,.09)}
+.on-dark .point .ic{background:rgba(169,200,230,.14);color:var(--sky)}
+.on-dark .point h3{color:var(--white)}
+.on-dark .point p{color:rgba(255,255,255,.68)}
+
+/* ---------- product / offer cards (manufacturing, trading) ---------- */
+.offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.offer{background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:0 1px 0 var(--line);transition:.5s var(--ease);display:flex;flex-direction:column}
+.offer:hover{transform:translateY(-8px);box-shadow:0 30px 60px -30px rgba(18,53,67,.35)}
+.offer .ph{aspect-ratio:3/2;overflow:hidden;background:var(--stone)}
+.offer .ph img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.offer:hover .ph img{transform:scale(1.07)}
+.offer .tx{padding:26px 26px 30px}
+.offer h3{font-size:1.18rem;margin-bottom:8px}
+.offer p{font-size:.94rem;color:var(--slate)}
+.offer .tagline{display:inline-block;margin-bottom:12px;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+
+@media (max-width:1024px){
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .points,.offer-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:560px){
+  .steps{grid-template-columns:1fr}
+  .facts{grid-template-columns:1fr}
+  .points,.offer-grid{grid-template-columns:1fr}
+}
